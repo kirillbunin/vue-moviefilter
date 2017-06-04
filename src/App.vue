@@ -20,7 +20,7 @@
         </div>
 
         <div v-if="response && response.results.length > 0">
-          <span class="results__header">{{ response.total_results }} results found (displaying page {{ this.response.page }} of {{ this.response.total_pages }})</span>
+          <span class="results__header">{{ response.total_results }} results found</span>
 
           <Pagination
             :page="this.response.page"
