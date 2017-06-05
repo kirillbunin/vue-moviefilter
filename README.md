@@ -1,6 +1,6 @@
 # vue-moviefilter
 
-> Example use of API to fsearch and filter movies.
+> Example use of API to search and filter movies.
 
 ## Build Setup
 

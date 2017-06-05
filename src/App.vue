@@ -8,7 +8,8 @@
         <div class="introWrap">
           <p class="introText">
             This app allows your to simply filter through results from <a href="//www.themoviedb.org/" title="www.themoviedb.org" rel="nofollow">TMDB</a> API.<br>
-            Unfortunately, their API offers three ways to search. Search by various parameters, but <strong>NOT</strong> by title and/or description, search only by title (or a multisearch, which involves description aswell), or direct search by movie ID.
+            Unfortunately, their API offers three ways to search. Search by various parameters, but NOT by title and/or description, search only by a title (or a multi-search, which involves description as well), or direct search by ID.<br>
+            Therefore, for the sake of this demo, the query will search only through titles, and optionally through description as well.
           </p>
           <SearchForm
             @formSubmit="submitSearch"
